@@ -1,18 +1,21 @@
 # Supply Chain Service Level Visualization 
 
 ## Overview  
-A brief summary of the problem, tools, and goals.
+Understanding Customer Service Levels through various parameters using PowerBI and DAX
+**Problem Statement** Customers at AtliQ Mart are not renewing contracts, since the company has not been tracking their service levels, as a DA we need to analyze what might be going wrong and highlight some rights too.
+**Goals** Calculate various KPI's to understand current performance vs. targets.
 
-## Dataset and Methodology  
-- Dataset source  
-- Cleaning and preparation steps  
-- Tools/technologies used  
+## Dataset  
+- **Dataset source** The dataset was part of codebasics resume challenge
+  https://codebasics.io/challenge/codebasics-resume-project-challenge
+  **Dataset Contains** 3 dim tables and 2 facts tables    
+- **Tools/technologies used** Power BI, DAX, PowerQuery 
 
 ## Workflow  
-### Step 1: [Task Name]  
-- What was done, with small code snippets.  
-### Step 2: [Next Task]  
-- Describe the process and decisions made.  
+### Step 1: [Data Cleaning/Preparation]  
+- Basic data cleaning and preparation handled in PowerBI Powerquery  
+### Step 2: [Data Modelling]  
+- Connected various dim and facts tables on   
 
 ## Key Findings  
 1. **Insight 1**: Brief explanation.  
@@ -41,7 +44,7 @@ Instructions for replicating your analysis or accessing files.
 
 
 -
-Understanding Customer Service Levels through various parameters using PowerBI and DAX
+
 This repository contains:  
 - **CSV Files** for raw datasets
 - **Power BI dashboard** for supply chain analysis.  
