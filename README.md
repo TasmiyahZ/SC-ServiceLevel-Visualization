@@ -1,2 +1,3 @@
-# SupplyChain-Forecast-
-Simple forecast created using excel's powerpivot and DAX
+# Supply Chain Service Level Visualization-
+Understanding Customer Service Levels through various parameters using PowerBI and DAX
+
