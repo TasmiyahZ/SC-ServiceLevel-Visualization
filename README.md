@@ -17,7 +17,9 @@ Understanding Customer Service Levels through various parameters using PowerBI a
 ### Step 1: [Data Cleaning/Preparation]  
 - Basic data cleaning and preparation handled in PowerBI Powerquery  
 ### Step 2: [Data Modelling]  
-- Connected various dim and facts tables on   
+- Connected various dim and facts tables through 1:1 or 1:Many relationship
+### Step 3: [Measures table and Key Dax Calculations]
+- Infull =CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[in_full]=1)/COUNT(fact_orders_aggregate[order_id])*100
 
 ## Key Findings  
 1. **Insight 1**: Brief explanation.  
