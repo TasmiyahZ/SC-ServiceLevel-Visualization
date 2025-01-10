@@ -21,12 +21,13 @@ Understanding Customer Service Levels through various parameters using PowerBI a
 ### Step 3: [Measures table and Key Dax Calculations]
 ![image](https://github.com/user-attachments/assets/beb0587f-d23c-42fd-b062-654ebe4a283e)
 *for example* 
-```sql
+```
 YTD Sales = 
 CALCULATE(
     SUM(SalesTable[SalesAmount]),
     DATESYTD(SalesTable[Date])
-)```
+)
+```
 
 
 
