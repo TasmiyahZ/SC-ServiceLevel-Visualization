@@ -23,14 +23,16 @@ Understanding Customer Service Levels through various parameters using PowerBI a
 
 
 *for example*
-# In Full: Measures the % shipments shipped in full
-# Ontime In Full OTIF% : Measures shipments shipped on time and in full
-# VOFR: Measures the total volume shipped vs total ordered volume
-and others
-```IF% = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[in_full]=1)/COUNT(fact_orders_aggregate[order_id])*100
+--In Full: Measures the % shipments shipped in full
+--Ontime In Full OTIF% : Measures shipments shipped on time and in full
+--VOFR: Measures the total volume shipped vs total ordered volume
+
 ```
-```OTIF % = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[otif]=1)/COUNT(fact_orders_aggregate[order_id])*100
-``` etc
+IF% = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[in_full]=1)/COUNT(fact_orders_aggregate[order_id])*100
+```
+```
+OTIF % = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[otif]=1)/COUNT(fact_orders_aggregate[order_id])*100
+``` 
 
 
 
