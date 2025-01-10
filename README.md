@@ -10,9 +10,7 @@ Understanding Customer Service Levels through various parameters using PowerBI a
 ## Dataset  
 - **Dataset source** The dataset was part of codebasics resume challenge
   https://codebasics.io/challenge/codebasics-resume-project-challenge
-
-   **Dataset Contains** 3 dim tables and 2 facts tables    
--
+- **Dataset Contains** 3 dim tables and 2 facts tables    
 -  **Tools/technologies used** Power BI, DAX, PowerQuery 
 
 ## Workflow  
