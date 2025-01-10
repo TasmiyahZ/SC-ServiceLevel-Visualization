@@ -2,7 +2,9 @@
 
 ## Overview  
 Understanding Customer Service Levels through various parameters using PowerBI and DAX
+
 **Problem Statement** Customers at AtliQ Mart are not renewing contracts, since the company has not been tracking their service levels, as a DA we need to analyze what might be going wrong and highlight some rights too.
+
 **Goals** Calculate various KPI's to understand current performance vs. targets.
 
 ## Dataset  
