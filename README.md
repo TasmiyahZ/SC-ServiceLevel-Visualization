@@ -20,14 +20,17 @@ Understanding Customer Service Levels through various parameters using PowerBI a
 - Connected various dim and facts tables through 1:1 or 1:Many relationship
 ### Step 3: [Measures table and Key Dax Calculations]
 ![image](https://github.com/user-attachments/assets/beb0587f-d23c-42fd-b062-654ebe4a283e)
-*for example* 
+
+
+*for example*
+# In Full: Measures the % shipments shipped in full
+# Ontime In Full OTIF% : Measures shipments shipped on time and in full
+# VOFR: Measures the total volume shipped vs total ordered volume
+and others
+```IF% = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[in_full]=1)/COUNT(fact_orders_aggregate[order_id])*100
 ```
-YTD Sales = 
-CALCULATE(
-    SUM(SalesTable[SalesAmount]),
-    DATESYTD(SalesTable[Date])
-)
-```
+```OTIF % = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[otif]=1)/COUNT(fact_orders_aggregate[order_id])*100
+``` etc
 
 
 
