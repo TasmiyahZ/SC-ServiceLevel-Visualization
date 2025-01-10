@@ -19,9 +19,8 @@ Understanding Customer Service Levels through various parameters using PowerBI a
 ### Step 2: [Data Modelling]  
 - Connected various dim and facts tables through 1:1 or 1:Many relationship
 ### Step 3: [Measures table and Key Dax Calculations]
-```sql
-   Total Sales = SUM(SalesTable[SalesAmount])
-![image](https://github.com/user-attachments/assets/1849d237-ff4c-42a0-90f8-4807bdb6e729)
+![image](https://github.com/user-attachments/assets/78334b31-a5fc-44cd-bed8-2b157db3d98e)
+
 
 ## Key Findings  
 1. **Insight 1**: Brief explanation.  
