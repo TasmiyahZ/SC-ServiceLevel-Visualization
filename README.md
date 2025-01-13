@@ -38,14 +38,10 @@ OTIF % = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[
 
 
 ## Key Findings  
-1. **Insight 1**: Brief explanation.  
-2. **Insight 2**: Brief explanation.  
+1. **Insight 1**:  The company's overall Ontime In Full is @ 29% vs the target of 66%
+2. **Insight 2**: The average Line Fill Rate for the company is 66%.
+3. The details on which customers, products or cities are most affected can be viewed in the dashboard attached. The primary reason for customers not renewing their contracts with the company thus are driven from poor KPI of the company against targets.
 
-## Dashboard Preview  
-Include screenshot links to dashboards, graphs, or other outputs.
-
-## How to Use (Optional)  
-Instructions for replicating your analysis or accessing files.
 
 
 
