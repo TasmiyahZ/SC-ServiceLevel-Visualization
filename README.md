@@ -42,35 +42,3 @@ OTIF % = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[
 2. **Insight 2**: The average Line Fill Rate for the company is 66%.
 3. The details on which customers, products or cities are most affected can be viewed in the dashboard attached. The primary reason for customers not renewing their contracts with the company thus are driven from poor KPI of the company against targets.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--
-
-This repository contains:  
-- **CSV Files** for raw datasets
-- **Power BI dashboard** for supply chain analysis.  
-
-## Key Features  
-- Interactive charts to understand service levels  
-- Pivot tables for quick data slicing.
-
-## File Descriptions   
-- **Atliq Supply Chain.pbix**: Power BI dashboard with visuals for service level analysis.  
-
-## Screenshots  
-
