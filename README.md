@@ -39,6 +39,18 @@ OTIF % = CALCULATE(count(fact_orders_aggregate[order_id]),fact_orders_aggregate[
 
 ## Key Findings  
 1. **Insight 1**:  The company's overall Ontime In Full is @ 29% vs the target of 66%
-2. **Insight 2**: The average Line Fill Rate for the company is 66%.
-3. The details on which customers, products or cities are most affected can be viewed in the dashboard attached. The primary reason for customers not renewing their contracts with the company thus are driven from poor KPI of the company against targets.
+2. **Insight 2**: The average Line Fill Rate for the company is 66% that shows potential 
+3. **Additional Insights//Outcomes**
+
+Line Fill Rate (LIFR%) and Volume Fill Rate (VOFR%): Products like "AM Biscuits 750" and "AM Milk 500" have higher LIFR% and VOFR%, indicating better fulfillment efficiency. For low LIFR% products (e.g., "AM Tea 100"), stocking or production bottlenecks could be investigated.
+
+Short Ship% : Dairy's high short-ship quantity suggests supply issues or higher demand than available inventory.The company should prioritize optimizing the dairy supply chain and review its demand forecasts.
+
+Customer Highlights: Prioritize addressing fulfillment issues for key customers like "Coolblue" and "Acclaimed Stores" to prevent further churn. Analyze delivery routes, order volumes, and demand variability for these customers.
+
+City Highlights: Ahmedabad and Vadodara should be prioritized for logistical improvements.Investigate warehouse distribution or transit times causing delays in these regions.
+
+**Outcomes**
+Several correlated factors show reasons for customer drop out rate. Consistent poor performance on KPI's over six months show systematic supply chain inefficiencies and need thorough review. 
+
 
